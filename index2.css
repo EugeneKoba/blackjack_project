@@ -1,0 +1,70 @@
+body {
+	background-color: darkgreen;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+	font-size: 56px;
+	padding: 0;
+	color: whitesmoke;
+}
+
+.header .container {
+	position: absolute;
+	display: block;
+	text-align: center;
+	justify-content: center;
+	min-height: 100vh;
+	min-width: 100vw;
+}
+
+.header .container .card-img {
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header .container .card-img .card-inner {
+	height: 200px;
+	width: 160px;
+	margin: 10px;
+}
+
+.header .container .card-img .card-inner img{
+	height: 200px;
+	width: 160px;
+}
+
+.header .container h3 {
+	color: goldenrod;
+}
+
+.header .container p {
+	font-weight: bold;
+}
+
+.header .container #greeting-el {
+	font-weight: 600;
+}
+
+.header .blackjack-button {
+	width: 250px;
+	font-size: 24px;
+	background-color: goldenrod;
+	color: #016f32;
+	padding: 10px;
+	text-align: center;
+	margin: 5px;
+}
+
+.header .new-card-button {
+	width: 250px;
+	font-size: 24px;
+	background-color: goldenrod;
+	color: #016f32;
+	padding: 10px;
+	text-align: center;
+	margin: 5px;
+}
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="index2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <title>BlackJack</title>
+  </head>
+
+  <body>
+    <section class="header">
+      <div class="container">
+        <h1 class="title">BlackJack Game</h1>
+        <p id="cards-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
+        <h2 id="greeting-el"></h2>
+        <div class="card-img">
+          <!-- THIS IS WHERE THE DRAWN CARDS WILL GO -->
+        </div>
+        <h3 id="message-el">Do you want to play another round?</h3>
+        <h4 id="new-el" onclick="newCard()"></h4>
+        <div>
+          <button class="blackjack-button" onclick="startGame()">
+            START GAME
+          </button>
+        </div>
+        <div>
+          <button class="new-card-button" onclick="newCard()">NEW CARD</button>
+        </div>
+        <h3 id="player-el"></h3>
+      </div>
+    </section>
+  </body>
+
+  <!--    JAVASCRIPT SECTION   -->
+  <script src="../js/script.js"></script>
+</html>
